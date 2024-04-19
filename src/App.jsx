@@ -12,6 +12,11 @@ import JobPage, { jobLoader } from './pages/JobPage';
 import AddJobPage from './pages/AddJobPage';
 import EditJobPage from './pages/EditJobPage';
 
+/*
+  TODO
+  Switch from local JSON-Server to an actual API using Express.
+*/
+
 const App = () => {
   // Add New Job
   const addJob = async (newJob) => {
